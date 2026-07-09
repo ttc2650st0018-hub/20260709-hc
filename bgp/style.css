@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+div {
+    width: 500px; 
+    height: 500px;
+    border: 1px solid #000000;
+    margin: 1em 0;
+
+    color: tomato;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+
+    background-image: url("cat.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.center{
+    background-position: center bottom;
+}
+.right-top{
+    background-position: right top;
+}
+.px{
+    background-position: 20px 40px;
+}

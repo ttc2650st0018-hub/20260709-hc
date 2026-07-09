@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+
+div {
+    width: 500px; 
+    height: 500px;
+    border: 1px solid #000000;
+    margin: 1em 0;
+
+    color: rgb(137, 137, 137);
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+
+    background-image: url("pattern.jpg");
+    background-repeat: no-repeat;
+   
+}
+
+.repeat1{
+    background-repeat: repeat;
+}
+.repeat2{
+    background-repeat: no-repeat;
+}
+.repeat3{
+    background-repeat: repeat-x;
+}
+.repeat4{
+    background-repeat: repeat-y;
+}

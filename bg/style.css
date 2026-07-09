@@ -1,0 +1,29 @@
+@charset "utf-8";
+
+div {
+    width: 500px; 
+    height: 500px;
+    border: 1px solid #000000;
+    margin: 1em 0;
+
+    color: #555;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content:  center;
+
+
+}
+.bg-1{
+    background: #1cc4ab;
+}
+.bg-2{
+    /* background: url(dog.jpg) center / contain no-repeat ; */
+    background: url(dog.jpg) left bottom / 250px no-repeat ;
+    /* 位置とサイズの間にはスラッシュ */
+}
+.bg-3{
+    background: url("dog.jpg") right top / cover fixed no-repeat;
+    /* fixedはスクロールしても画像が動かないからページの後ろに画像があるように見える */
+}
